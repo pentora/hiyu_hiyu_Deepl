@@ -1,12 +1,13 @@
+import os
 import discord
 from discord.ext import commands
 import requests
 
-# Discordのボットトークン
-DISCORD_TOKEN = 
+# Discordのボットトークンを環境変数から取得
+DISCORD_TOKEN = os.getenv('DISCORD_TOKEN')
 
-# DeepL APIキー
-DEEPL_API_KEY = 
+# DeepL APIキーを環境変数から取得
+DEEPL_API_KEY = os.getenv('DEEPL_API_KEY')
 
 # intentsを設定
 intents = discord.Intents.default()
