@@ -23,7 +23,6 @@ async def on_ready():
     print(f'Logged in as {bot.user}')
 
 # 国旗の絵文字に対応するターゲット言語を定義
-# 国旗の絵文字に対応するターゲット言語を定義
 flag_to_language = {
     '🇸🇦': 'AR',   # アラビア語
     '🇧🇬': 'BG',   # ブルガリア語
