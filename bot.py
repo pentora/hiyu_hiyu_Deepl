@@ -6,7 +6,7 @@ import requests
 # Discordのボットトークンを環境変数から取得
 DISCORD_TOKEN = os.getenv('DISCORD_TOKEN')
 
-# DeepL APIキーを環境変数から取得
+# DeepL APIキーも同様に環境変数から取得する場合の例
 DEEPL_API_KEY = os.getenv('DEEPL_API_KEY')
 
 # intentsを設定
