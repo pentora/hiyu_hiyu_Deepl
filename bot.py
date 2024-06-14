@@ -3,10 +3,10 @@ from discord.ext import commands
 import requests
 
 # Discordのボットトークン
-DISCORD_TOKEN = 'MTI1MTAwNjU2MTE2NjI5NTA5Mg.GsAKir.g2O-mTppY-wDldh0J7TDcTcLz773rqbWBvXU6o'
+DISCORD_TOKEN = 
 
 # DeepL APIキー
-DEEPL_API_KEY = '1b06768a-8534-4875-93a5-13c78cef7117:fx'
+DEEPL_API_KEY = 
 
 # intentsを設定
 intents = discord.Intents.default()
